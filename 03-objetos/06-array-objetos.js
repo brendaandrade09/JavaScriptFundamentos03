@@ -4,5 +4,5 @@ const alunos = [
     {nome: "Jaque", nota: 5}
 ];
 alunos.forEach((aluno) => {
-    console.log(aluno.nome)
+    console.log(`A aluna ${aluno.nome} tirou nota ${aluno.nota}.`)
 });
